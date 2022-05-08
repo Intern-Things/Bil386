@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">götür</string>
+    <string name="create_new_Acc">Yeni Hesap Oluştur</string>
+    <string name="LogIn">Giriş Yap</string>
+    <string name="phoneNum">Telefon Numarası</string>
+    <string name="Password">Şifre</string>
+    <string name="Create_Account">Üye Ol</string>
+    <string name="ForgotPassword">Şifremi Unuttum</string>
+</resources>

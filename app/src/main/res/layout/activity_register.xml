@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="#FFC107">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/app_name"
+        android:textColor="@android:color/black"
+        android:textSize="60sp" />
+    <TextView
+        android:id="@+id/UsernameLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phoneNum"
+        android:layout_below="@+id/title"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="10dp"
+        android:textSize="24sp"
+        />
+
+    <EditText
+        android:id="@+id/txtPhoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UsernameLbl"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:inputType="number"
+        android:hint="@string/phoneNum"
+        android:importantForAutofill="no" />
+    <TextView
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Password"
+        android:layout_below="@+id/txtPhoneNum"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/PasswordText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPassword"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="10dp"
+        android:hint="@string/Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnRegisterCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="250dp"
+        android:text="@string/Create_Account"
+
+        />
+
+
+
+</RelativeLayout>
+
+
